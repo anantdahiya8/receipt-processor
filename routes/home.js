@@ -28,7 +28,7 @@ module.exports = function (router) {
             let points = getPoints(req.body);
             const id = uuidv4();
             database.set(id, points);
-            res.json({ id: id });
+            res.status(200).json({ id: id });
         }catch(error){
             console.log(error);
             res.status(400).json({ message: "Unable to process the receipt. Please check the input." });

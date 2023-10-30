@@ -1,15 +1,12 @@
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-const { response } = require('express');
-let app = require('../server');
-let validReceipt = require('./resources/validReceipt');
-let validReceipt2 = require('./resources/validReceipt2');
-let missingRetailerReceipt = require('./resources/missingRetailerReceipt');
-let incorrectTotalReceipt = require('./resources/incorrectTotalReceipt');
-let incorrectTimeReceipt = require('./resources/incorrectTimeReceipt');
-let emptyDescReceipt = require('./resources/emptyDescReceipt');
-
-
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const app = require('../server');
+const validReceipt = require('./resources/validReceipt');
+const validReceipt2 = require('./resources/validReceipt2');
+const missingRetailerReceipt = require('./resources/missingRetailerReceipt');
+const incorrectTotalReceipt = require('./resources/incorrectTotalReceipt');
+const incorrectTimeReceipt = require('./resources/incorrectTimeReceipt');
+const emptyDescReceipt = require('./resources/emptyDescReceipt');
 
 
 chai.should();
