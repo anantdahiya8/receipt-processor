@@ -17,7 +17,7 @@ Windows : https://www.youtube.com/watch?v=X-FPCwZFU_8
 3. Start the dev server:
 `npm start` or 
 `nodemon --exec node server.js` to automatically restart the server on save.
-4. Server will start on port 4000. To change the port number, change the port number on line 9 in server.js <br />(Urls: POST: http://localhost:4000/receipts/process, GET: http://localhost:4000/receipts/:id/points)
+4. Server will start on port 4000. To change the port number, change the port number on line 9 in server.js <br />(Urls: POST: http://localhost:4000/receipts/process, GET: http://localhost:4000/receipts/{id}/points)
 
 
 ## 3. Running the Tests
