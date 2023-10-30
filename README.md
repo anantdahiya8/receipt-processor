@@ -1,7 +1,7 @@
-## 1. Insalling NodeJs
+## 1. Installing NodeJs
 1. Go to NodeJs Website : https://nodejs.org/en
 2. Download latest NodeJs package and install it.
-3. Image Guide: <br />
+3. Image Guide (3 Steps): <br />
 ![image info](./images/1.png)
 ![image info](./images/2.png)
 ![image info](./images/3.png)
@@ -17,9 +17,13 @@ Windows : https://www.youtube.com/watch?v=X-FPCwZFU_8
 3. Start the dev server:
 `npm start` or 
 `nodemon --exec node server.js` to automatically restart the server on save.
-4. Server will start on port 4000. To change the port number, change the port number on line 9 in server.js <br />(Urls: http://localhost:4000/receipts/process, http://localhost:4000/receipts/:id/points)
+4. Server will start on port 4000. To change the port number, change the port number on line 9 in server.js <br />(Urls: POST: http://localhost:4000/receipts/process, GET: http://localhost:4000/receipts/:id/points)
 
 
 ## 3. Running the Tests
 1. Run the test:
 `npm run test`
+
+
+## 3. Demo Video
+![](./images/demo.mp4)
