@@ -1,8 +1,10 @@
 ## 1. Insalling NodeJs
 1. Go to NodeJs Website : https://nodejs.org/en
 2. Download latest NodeJs package and install it.
-3. Video Reference:
-Mac : https://www.youtube.com/watch?v=pHz7TgEIa0w
+3. Image Guide: <br />
+![image info](./images/1.png)
+4. Video Reference: <br />
+Mac : https://www.youtube.com/watch?v=pHz7TgEIa0w <br />
 Windows : https://www.youtube.com/watch?v=X-FPCwZFU_8
 
 ## 2. Running the Project
