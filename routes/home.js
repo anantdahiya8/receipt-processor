@@ -61,9 +61,8 @@ module.exports = function (router) {
             }
         }
         // 6 points if the day in the purchase date is odd.
-        let date = new Date(body.purchaseDate);
-        console.log(date.getDate());
-        if(date.getDate() % 2 == 1){
+        let date = parseInt(body.purchaseDate[body.purchaseDate.length-1]);
+        if(date % 2 == 1){
             points += 6;
         }
         // 10 points if the time of purchase is after 2:00pm and before 4:00pm.
@@ -72,7 +71,6 @@ module.exports = function (router) {
         }
         return points;
     }
-    
 
     return router;
 }
