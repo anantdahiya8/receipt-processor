@@ -25,9 +25,10 @@ app.use(bodyParser.json());
 // Use routes as a module (see index.js)
 require('./routes')(app, router);
 
+const HOST = '0.0.0.0';
 // Start the server
-app.listen(port);
-console.log('Server running on port ' + port);
+app.listen(port, HOST);
+console.log(`Running on http://${HOST}:${port}`);
 
 
 module.exports = app
