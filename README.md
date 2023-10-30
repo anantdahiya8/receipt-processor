@@ -5,7 +5,7 @@
 ![image info](./images/1.png)
 ![image info](./images/2.png)
 ![image info](./images/3.png)
-4. Video Reference: <br />
+4. Video Guide : <br />
 Mac : https://www.youtube.com/watch?v=pHz7TgEIa0w <br />
 Windows : https://www.youtube.com/watch?v=X-FPCwZFU_8
 
