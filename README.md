@@ -26,4 +26,5 @@ Windows : https://www.youtube.com/watch?v=X-FPCwZFU_8
 
 
 ## 3. Demo Video
-![](./images/demo.mp4)
+https://github.com/anantdahiya8/receipt-processor/assets/20678029/0c5467ca-4505-4258-97ef-e0679766a8f5
+
